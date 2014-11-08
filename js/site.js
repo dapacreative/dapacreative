@@ -10,6 +10,24 @@
     		hideBarsDelay: 10000
   		});
 		},
+		headerScroll: function() {
+  		var $body = $("body");
+      $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+  
+          if (scroll >= 250) {
+              $body.addClass("animated");
+          } else {
+              $body.removeClass("animated");
+          }
+          
+          if (scroll >= 300) {
+              $body.addClass("fixed");
+          } else {
+              $body.removeClass("fixed");
+          }
+      });
+		},
 		projectFilters: function() {
       var $projects = $('.projects');
       
@@ -32,6 +50,7 @@
 
 	Site.animateLogo();
 	Site.gallery();
+	Site.headerScroll();
 	Site.projectFilters();
 	
 })();
