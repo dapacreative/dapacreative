@@ -1,5 +1,11 @@
-(function(){
+(function($){
   var Site = {
+    init: function () {
+      Site.animateLogo();
+      Site.gallery();
+      Site.headerScroll();
+      Site.projectFilters();
+    },
 		animateLogo: function() {
 			setTimeout(function(){
   		  $('.logo').addClass('animated');
@@ -48,9 +54,6 @@
 		}
 	}
 
-	Site.animateLogo();
-	Site.gallery();
-	Site.headerScroll();
-	Site.projectFilters();
+	Site.init();
 	
-})();
+})(jQuery);
