@@ -1,0 +1,324 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"hello",
+				"hello	hello"
+			],
+			[
+				"bottom",
+				"padding-bottom"
+			],
+			[
+				"R",
+				"counter-reset"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "(function($){\n  var Site = {\n    init: function() {\n      Site.animateLogo();\n      Site.gallery();\n      Site.headerScroll();\n      Site.projectFilters();\n    },\n		animateLogo: function() {\n			setTimeout(function(){\n  		  $('.logo').addClass('animated');\n			}, 500)\n		},\n		gallery: function() {\n  		$('.swipebox').swipebox({\n    		hideBarsDelay: 10000\n  		});\n		},\n    test: function() {\n\n    }\n		headerScroll: function() {\n  		var $body = $(\"body\");\n      $(window).scroll(function() {\n          var scroll = $(window).scrollTop();\n  \n          if (scroll >= 250) {\n              $body.addClass(\"animated\");\n          } else {\n              $body.removeClass(\"animated\");\n          }\n          \n          if (scroll >= 300) {\n              $body.addClass(\"fixed\");\n          } else {\n              $body.removeClass(\"fixed\");\n          }\n      });\n		},\n		projectFilters: function() {\n      var $projects = $('.projects');\n      \n      setTimeout(function(){\n  		  $projects.mixItUp({\n  		    animation: {\n        		effects: 'fade translateY(50px)',\n        		duration: 300\n        	},\n          selectors: {\n        		target: '.project'\n        	},\n        	load: {\n        		filter: '.development'\n        	}\n        });\n			}, 1200)\n		}\n	}\n\n	Site.init();\n	\n})(jQuery);",
+			"file": "/Users/dan/Sites/dapacreative/js/site.js",
+			"file_size": 1241,
+			"file_write_time": 1423076101000000,
+			"settings":
+			{
+				"buffer_size": 1271,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dan/Sites/dapacreative/js/site.js",
+		"/Users/dan/Sites/heads-up-coaches/partials/intro.html",
+		"/Users/dan/Sites/heads-up-coaches/_src/scss/layout/_nav.scss",
+		"/Users/dan/Sites/heads-up-coaches/_src/scss/helpers/_variables.scss",
+		"/Users/dan/Sites/heads-up-coaches/_src/scss/helpers/_mixins.scss",
+		"/Users/dan/Sites/heads-up-coaches/_src/scss/modules/_resources.scss",
+		"/Users/dan/Sites/heads-up-coaches/partials/_resources.html",
+		"/Users/dan/Sites/heads-up-coaches/_src/scss/layout/_grid.scss",
+		"/Users/dan/Sites/oadp/_src/js/site.js",
+		"/Users/dan/Sites/oadp/_src/scss/base/_base.scss",
+		"/Users/dan/Sites/oadp/resources.php",
+		"/Users/dan/Sites/oadp/.gitignore",
+		"/Users/dan/Sites/oadp/resources-detail.php",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/HTML Comments.sublime-snippet",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/HTML - Unorder List Links",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/html comments.sublime-snippet",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/hello.sublime-snippet",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/HTML-Comments.sublime.snippet",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences (OSX).sublime-settings",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/dan/Sites/heads-up-coaches/gulpfile.js",
+		"/Users/dan/Sites/heads-up-coaches/_src/scss/site.scss",
+		"/Users/dan/Sites/heads-up-coaches/_src/scss/modules/_video.scss",
+		"/Users/dan/Sites/heads-up-coaches/index.html",
+		"/Users/dan/Sites/heads-up-coaches/_banyan/heads-up-coaches.sublime-workspace",
+		"/Users/dan/Sites/banyan-project-template/package.json",
+		"/Users/dan/Downloads/Ex_Files_UaR_EmberJS/Exercise Files/Chapter04/04-06/finished/js/exhibits.json",
+		"/Users/dan/Sites/theo/index.html",
+		"/Users/dan/Sites/theo/_src/scss/base/_base.scss",
+		"/Users/dan/Sites/banyan-project-template/gulpfile.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"resource",
+			"share",
+			"videos",
+			"promos",
+			"handouts",
+			"super+;",
+			"<span>",
+			"class=",
+			"You",
+			"follow",
+			"resource",
+			"header",
+			"header		",
+			"animationOnLoad",
+			"site",
+			"animateHeaderPre",
+			"seek",
+			"ember"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"test"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/dan/Sites/dapacreative/js/site.js",
+					"settings":
+					{
+						"buffer_size": 1271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true
+}
