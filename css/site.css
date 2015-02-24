@@ -15,6 +15,30 @@ body.animated:before {
   display: block;
 }
 
+.preloader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #1a232a;
+  z-index: 999;
+  transition: all 0.3s ease;
+  opacity: 1;
+  display: none;
+}
+
+.loaded .preloader {
+  opacity: 0;
+}
+
+.preloader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 header {
   background: #1a232a;
   border-top: 8px solid #05b2d2;

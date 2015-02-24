@@ -7,6 +7,9 @@
       Site.headerScroll();
       Site.projectFilters();
     },
+    isLoaded: function() {
+      $("body").addClass('loaded');
+    },
 		animateLogo: function() {
 			setTimeout(function(){
   		  $('.logo').addClass('animated');
@@ -60,6 +63,15 @@
 		}
 	}
 
-	Site.init();
+  //On window load
+  window.onload = function() {
+    Site.isLoaded();
+    Site.init();
+  }
+
+  //On doucment load
+  $(function() {
+    // Do stuff
+  });
 	
 })(jQuery);

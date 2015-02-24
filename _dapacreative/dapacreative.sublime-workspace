@@ -96,10 +96,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/dan/Sites/dapacreative/css/site.css",
+			"file": "/Users/dan/Sites/dapacreative/index.html",
 			"settings":
 			{
-				"buffer_size": 5545,
+				"buffer_size": 16084,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +107,15 @@
 			"file": "/Users/dan/Sites/dapacreative/js/site.js",
 			"settings":
 			{
-				"buffer_size": 1396,
+				"buffer_size": 1605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dan/Sites/dapacreative/css/site.css",
+			"settings":
+			{
+				"buffer_size": 5991,
 				"line_ending": "Unix"
 			}
 		}
@@ -156,6 +164,8 @@
 	},
 	"file_history":
 	[
+		"/Users/dan/Sites/dapacreative/js/site.js",
+		"/Users/dan/Sites/dapacreative/css/site.css",
 		"/Users/dan/Sites/oadp/index.php",
 		"/Users/dan/Sites/heads-up-coaches/partials/_nav.html",
 		"/Users/dan/Sites/heads-up-coaches/partials/pretest-completion.html",
@@ -253,34 +263,34 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/dan/Sites/dapacreative/css/site.css",
+					"file": "/Users/dan/Sites/dapacreative/index.html",
 					"settings":
 					{
-						"buffer_size": 5545,
+						"buffer_size": 16084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2510,
-								2510
+								998,
+								998
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1756.0,
+						"translation.y": 9.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -290,21 +300,50 @@
 					"file": "/Users/dan/Sites/dapacreative/js/site.js",
 					"settings":
 					{
-						"buffer_size": 1396,
+						"buffer_size": 1605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								262,
+								262
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/dan/Sites/dapacreative/css/site.css",
+					"settings":
+					{
+						"buffer_size": 5991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
