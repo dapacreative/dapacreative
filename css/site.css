@@ -4,6 +4,16 @@ body, html {
   font-family: 'Roboto', Arial, sans-serif;
 }
 
+body:before {
+  content: '';
+  height: 239px;
+  display: none;
+}
+
+body.animated:before {
+  display: block;
+}
+
 header {
   background: #1a232a;
   border-top: 8px solid #05b2d2;
@@ -115,8 +125,10 @@ h1 {
   color: white;
   font: 300 13px/14px 'Roboto', Arial, sans-serif;
   opacity: 0;
-  transition: all 0.5s ease 0.4s;
-  -webkit-transition: all 0.5s ease 0.4s;
+  transition: all 0.5s ease 0.2s;
+  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+  -webkit-transition: all 0.5s ease 0.2s;
 }
 
 h1 span {
@@ -125,6 +137,8 @@ h1 span {
 
 .logo.animated h1 {
   opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
 }
 
 .container {
@@ -150,6 +164,12 @@ h1 span {
 .filters {
   text-align: center;
   padding-bottom: 30px;
+  opacity: 0;
+  transition: all 0.5s ease 1s;
+}
+
+.animated.filters {
+  opacity: 1;
 }
 
 .filters ul {

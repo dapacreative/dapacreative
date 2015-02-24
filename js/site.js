@@ -2,6 +2,7 @@
   var Site = {
     init: function () {
       Site.animateLogo();
+      Site.animateFilters();
       Site.gallery();
       Site.headerScroll();
       Site.projectFilters();
@@ -11,6 +12,11 @@
   		  $('.logo').addClass('animated');
 			}, 500)
 		},
+    animateFilters: function(){
+      setTimeout(function(){
+        $('.filters').addClass('animated');
+      }, 500)
+    },
 		gallery: function(){
   		$('.swipebox').swipebox({
     		hideBarsDelay: 10000
