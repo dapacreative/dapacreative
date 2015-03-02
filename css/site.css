@@ -325,6 +325,10 @@ h1 span {
 }
 
 @media (max-width: 600px) {
+  body.animated:before {
+    display: none;
+  }
+  
   header {
     padding: 20px 0;
   }
